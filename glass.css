@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #171825;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.container{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+    background: rgba(225, 225, 225, 0.1);
+    height: 35rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+}
+.object-1{
+    background-color: #8E41D1;
+    position: absolute;
+    height: 50vh;
+    top: 1%;
+   width: 50vh;
+   border-radius: 50%;
+   left: 15%;
+   z-index: -5;
+}
+.object-2{
+    background-color: rgb(241, 102, 60);
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    height: 50vh;
+   width: 50vh;
+   border-radius: 50%;
+   z-index: -10;
+}
+#image{
+    border-radius: 50%;
+    height: 20vh;
+    width: 21vh;
+    position: absolute;
+    margin-top: 0.5%;
+}
+.card-content{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#heading-1{
+    color: rosybrown;
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    right: 33%;
+    font-family: cursive;
+}
+#heading-2{
+    position: absolute;
+    top: 30%;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#004);
+    line-height: 0.70em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#paragraph-1{
+  display: flex;
+  margin-top: 190px;
+  padding-left: 90px;
+  line-height: 25px;
+ 
+}
+#fonter{
+    position: absolute;
+    top: 65%;
+}
